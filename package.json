@@ -1,0 +1,31 @@
+{
+  "name": "ajaxSpy",
+  "version": "1.0.0",
+  "description": "A node module that save xhr object requested and use then the following times.",
+  "main": "src/ajaxSpy.js",
+  "scripts": {
+    "test": "karma start test/karma.conf.js"
+  },
+  "keywords": [
+    "http",
+    "mock",
+    "rest"
+  ],
+  "author": {
+    "name": "Mirco Bellagamba",
+    "email": "mirco.bellag@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbellagamba/ajaxspy.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-coverage": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}

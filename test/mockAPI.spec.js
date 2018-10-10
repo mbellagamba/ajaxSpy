@@ -28,7 +28,7 @@ describe('Ajax Spy', function(){
     expect(urlParts.protocol).toEqual('https:');
     expect(urlParts.hostname).toEqual('www.example.com');
     expect(urlParts.port).toEqual('8080');
-    expect(urlParts.pathname).toEqual('/ticketing/box-office-ticketing');
+    expect(urlParts.pathname).toEqual('/login');
     expect(urlParts.search).toEqual('?user=demo@example.com&pass=demo');
   });
 
